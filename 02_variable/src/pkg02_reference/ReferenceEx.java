@@ -5,8 +5,8 @@ public class ReferenceEx {
   public static void main(String[] args) {
 
     // Reference Type (참조 타입)
-    // Type 타입 8가지를 제외한 모든 타입
-    // 모든 클래스는 참조 타입
+    // Type 타입 8가지를 제외한 모든 타입 (배열, 클래스, 인터페이스 등)
+    // 참조 타입 변수에는 주소(주소 값)가 저장
     
     // String 클래스 : 주소 값 (참조 값)을 저장하는 대표 참조 타입, 문자열 저장 시 사용함 (큰따옴표 활용)
     String s = "Hello World"; // s가 가지고 있는 값 = Hello World의 참조 값인데, 실제론 문자열을 출력해 보여줌

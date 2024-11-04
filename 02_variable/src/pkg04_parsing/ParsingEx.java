@@ -8,7 +8,7 @@ public class ParsingEx {
     // 각 타입으로 변환 가능한 인자값을 전달해야 함
     int a = Integer.parseInt("10");
     System.out.println(a);
-    
+
     long b = Long.parseLong("20");
     System.out.println(b);
     
