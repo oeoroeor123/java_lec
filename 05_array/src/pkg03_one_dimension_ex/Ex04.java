@@ -33,8 +33,7 @@ public class Ex04 {
     for(int j = i - 1; j >= 0; j--) { // 초기 값이 인덱스 - 1 : 실제 인덱스 첫 값으로 시작함
       System.out.print(binary[j]);
     }
-    
-    
+        
   }
 
 }
