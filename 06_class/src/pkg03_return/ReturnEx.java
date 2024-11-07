@@ -9,6 +9,11 @@ public class ReturnEx {
     // Sample 타입의 인스턴스 s 생성
     Sample s = new Sample();
     
+    /* 메소드 호출 시
+    호출 코드만 있으면 void로 반환 없음
+    출력 코드와 함께 있으면 string 같은 반환 존재하는 것
+    */
+    
     // methodA 호출
     s.methodA(10);
     s.methodA(-2); // 음수인 경우 메소드가 실행되지 않음

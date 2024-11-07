@@ -28,6 +28,28 @@ public class ForEx {
     for(int a = 1; a <= 9; a++) {
       System.out.println("3 x" + a + "=" + (3 * a));
     }
+    
+    // 구구단 세로 방향으로 출력
+    for(int dan =2; dan <= 9; dan++) {
+      for(int n = 1; n <= 9; n++) {
+        System.out.println(dan + "x" + n + "=" + (dan * n));
+      }
+    }
+    
+    for(int dan = 2; dan <= 9; dan++) {
+      for(int n = 1; n <= 9; n++) {
+        System.out.print(dan + "x" + n + "=" + (dan * n));
+      }
+      System.out.println();
+    }
+    
+    for(int row = 1; row <= 5; row++) {
+      for(int star = 1; star <= row; star++) {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+
   }
 
 }
