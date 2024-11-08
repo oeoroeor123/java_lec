@@ -11,7 +11,7 @@ public class BakeryEx {
     
     customer.buy(bakery1, 3, 10000); // 고객이 첫번째 빵집에서 빵를 3개 사고, 만원을 냄 (잔돈 7000)
     customer.buy(bakery2, 3, 7000); // 구매 실패 ("돈 더 주세요.")
-    customer.buy(bakery2, 2, 10000); // 구매 실패 ("내가 가진 돈이 부족하다.")
+    customer.buy(bakery2, 2, 10000); // 구매 실패 ("내가 가진 돈이 부족하다.") > 7000원 가지고 있는데, 10000원 내려고 함
     customer.buy(bakery2, 2, 7000); // 구매 성공 (빵 가격이 총 6000원)
     
     // 각 빵집과 고객의 현재 상황 출력
