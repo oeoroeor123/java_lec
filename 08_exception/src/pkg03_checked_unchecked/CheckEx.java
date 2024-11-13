@@ -31,7 +31,7 @@ public class CheckEx {
   }
   
   public static void main(String[] args) {
-    a();
+    b();
   }
 
 }

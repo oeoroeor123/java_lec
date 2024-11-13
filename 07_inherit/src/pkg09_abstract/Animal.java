@@ -16,5 +16,5 @@ public abstract class Animal {
    * 2. 메소드 앞에 abstract 키워드를 추가해야 한다.
    */
   public abstract void move();
-  
+
 }

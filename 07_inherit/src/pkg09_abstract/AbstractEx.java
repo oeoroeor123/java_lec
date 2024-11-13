@@ -12,6 +12,12 @@ public class AbstractEx {
     animals[1] = new Eagle();
     animals[2] = new Shark();
     
+    /*
+    for (요소타입 변수명: 반복대상) {
+    실행영역;
+    }
+    */
+    
     for(Animal animal : animals) {
       animal.move();
     }

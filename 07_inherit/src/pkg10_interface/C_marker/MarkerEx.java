@@ -11,7 +11,7 @@ public class MarkerEx {
     Person person = new Person();
     person.eat(kimchi);
     person.eat(hamburger);
-    // person.eat(sashimi);  컴파일 오류 발생
+    // person.eat(sashimi);  컴파일 오류 발생 (Eatable 타입 미작성)
 
   }
 

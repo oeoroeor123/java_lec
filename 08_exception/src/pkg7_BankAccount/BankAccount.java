@@ -42,6 +42,7 @@ public class BankAccount {
         throw new RuntimeException("잔액 부족");
       balance -= money;
       value = money;
+      
     } catch (Exception e) {
       System.out.println(e.getMessage());
     }

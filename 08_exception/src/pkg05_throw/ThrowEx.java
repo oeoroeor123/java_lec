@@ -19,6 +19,7 @@ public class ThrowEx {
       System.out.println(e.getMessage());
     }
     
+    
     // try 블록 외부에서 throw 문 : throws 문으로 예외를 회피한다. (try가 없으면 다른 곳으로 다시 던져야함)
     int age = 500;
     
@@ -27,6 +28,7 @@ public class ThrowEx {
     }
     
     System.out.println(age + "살이군요.");
+    
     
     
     
