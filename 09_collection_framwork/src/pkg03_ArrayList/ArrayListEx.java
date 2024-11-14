@@ -29,7 +29,7 @@ public class ArrayListEx {
     members.add("태양");
     members.add("로제");
     members.add("리사");
-    
+
     // 요소 삭제하기 (삭제된 요소 자리로 이후 요소들이 이동한다.)
     members.remove(2);
     
@@ -47,6 +47,7 @@ public class ArrayListEx {
     System.out.println(members.get(1));
     System.out.println(members.get(2));
     System.out.println(members.get(3));
+
     
     // 요소 개수
     System.out.println(members.size());
@@ -60,7 +61,7 @@ public class ArrayListEx {
     
     // (배열) 초기화를 이용한 ArrayList 생성
     List<Integer> numbers =  Arrays.asList(10, 20, 30, 40, 50, 60, 70);
-    
+
     // 요소 추가하기 (추가 불가능)
     // numbers.add(80);
     
@@ -70,6 +71,7 @@ public class ArrayListEx {
     // 요소 수정하기
     numbers.set(0, 100);
     numbers.set(1, 200);
+
  
     // 전체 요소 확인
     System.out.println(numbers);
@@ -92,7 +94,7 @@ public class ArrayListEx {
     
   }
   public static void main(String[] args) {
-    a();
+    c();
   }
   
 
