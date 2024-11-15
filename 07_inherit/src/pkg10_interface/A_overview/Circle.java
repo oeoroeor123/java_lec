@@ -1,7 +1,5 @@
 package pkg10_interface.A_overview;
 
-import pkg09_abstract.Animal;
-
 /*
  * 클래스 상속 vs 인터페이스 구현
  * 
