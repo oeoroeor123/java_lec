@@ -52,7 +52,7 @@ public class OutputEx {
       e.printStackTrace();
     } catch (IOException e) { // 부모
       e.printStackTrace();
-    } finally { // 파일 출력 스트림의 종료, 예외 발생 여부와 상관 없도록 finally 블록에서 처리
+    } finally { // 파일 출력 스트림의 종료, 예외 발생 여부와 상관 없이 스트림이 종료되도록 finally 블록에서 처리
       try {
        if(out != null) // out이 null이 아니면 출력 스트림 종료
         out.close();        
@@ -163,9 +163,9 @@ public class OutputEx {
       boolean isCute = true;
       out.writeBoolean(isCute);
       
-      String name = "또치"; // 한글 출력 시, DataOutputStream 사용해서 출력 가능
+      String name = "또치"; // 한글 출력 시, DataOutputStream > writeUTF 사용해서 출력 가능
       out.writeUTF(name);
-      
+
       
     } catch (IOException e) {
      e.printStackTrace();
@@ -196,6 +196,9 @@ public class OutputEx {
       out = new ObjectOutputStream(new FileOutputStream(file));
       
       out.writeObject(new Car("genesis", "G90")); // 직렬화가 가능한 인스턴스를 출력 할 수 있다. (직렬화 작업은 class 파일에서 진행)
+      out.writeObject(new Car("volvo","XC90"));
+      out.writeObject(new Car("bmw","X7"));
+      
       
     } catch (IOException e) {
       e.printStackTrace();
@@ -211,7 +214,7 @@ public class OutputEx {
   
 
   public static void main(String[] args) {
-   d();
+   e();
     
 
   }

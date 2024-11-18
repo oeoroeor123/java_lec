@@ -4,8 +4,8 @@ public class practice {
 
   public static void a() {
    
-    // 연습용 클래스
-    
+    // 연습용
+
   }
     
   

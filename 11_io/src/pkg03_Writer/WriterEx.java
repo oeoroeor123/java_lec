@@ -11,7 +11,7 @@ public class WriterEx {
   public static void a() {
     
     /* writer 스트림
-     * 문자열 전달 목적의 스트림
+     * 문자열(char) 전달 목적의 스트림
      */
 
     /*
@@ -24,8 +24,7 @@ public class WriterEx {
      *  
      *  }
      */
-    
-    
+   
     File file = new File("\\storage", "a.txt"); // 위치, 파일 이름
     
     try(FileWriter out = new FileWriter(file)) {
