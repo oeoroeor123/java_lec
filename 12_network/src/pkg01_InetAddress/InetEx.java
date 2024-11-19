@@ -13,12 +13,10 @@ public class InetEx {
     // 도메인 주소 : 문자로 된 호스트의 고유 주소. (IP 주소를 외우기 어려워 개발된 주소)
     
     // DNS : Domain Name Server. 도메인 주소를 IP 주소로 바꿔주는 서버(서비스). 
-    
-    // 자바 > 네트워크 ppt > url 구성 공부해두기
-    
+
     try {
       InetAddress addr1 = InetAddress.getByName("google.com");
-      
+   
       System.out.println("IP 주소 : " + addr1.getHostAddress());
       System.out.println("도메인 주소 : " + addr1.getHostName());
       

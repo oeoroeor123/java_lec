@@ -1,0 +1,13 @@
+프로젝트 선택
+https://github.com/stleary/JSON-java/blob/master/README.md
+
+Click here if you just want the latest release jar file 클릭해 다운로드
+
+이클립스
+  우클릭
+  - Build Path
+  - Configure Build Path
+  - Libraries 탭
+  - Classpath 선택
+  - Add External JARs 버튼 클릭
+  - \\dev-lec\\tools\\jar\\json-20240303.jar 파일 선택
