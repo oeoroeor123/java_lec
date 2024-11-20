@@ -221,6 +221,7 @@ public static void d() throws Exception {
     in.close();
     conn.disconnect();
     
+    // XML 파일 > JSONobject 파일로 바꾸기
     JSONArray data = XML.toJSONObject(responseBody.toString())
       .getJSONObject("rss")
       .getJSONObject("channel")
